@@ -12,7 +12,7 @@ end
 
 def current_player(board)
   count = turn_count(board)
-  
+
   if count.even
     'X'
   else
